@@ -1,0 +1,73 @@
+.footContainer{
+    position: relative;
+    font-size: 20px;
+    background: transparent;
+}
+
+.fullLine{
+
+    height: 1px;
+    background-color: #fff;
+}
+
+.span{
+    position: relative;
+    top: 2;
+}
+.align{
+    text-align: center;
+}
+@media (min-width: 360px) {
+    .footContainer{
+        top: 10rem
+    }
+    .fullLine{
+          position: relative;
+          width: 135%;
+          right: 58px;
+    }
+}
+
+@media (min-width: 480px) {
+    .fullLine{
+          position: relative;
+          width: 146%;
+          right: 74px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footContainer{
+        top: 12rem
+    }
+    .fullLine{
+          position: relative;
+          width: 252%;
+          right: 254px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footContainer{
+        top: 10rem
+    }
+    .fullLine{
+        position: relative;
+        width: 399%;
+        right: 185%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .fullLine {
+        position: relative;
+        width: 398%;
+
+        right: 505px;
+
+    }
+    .footContainer{
+        top: 10rem
+    }
+
+}

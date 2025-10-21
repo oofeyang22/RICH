@@ -1,0 +1,87 @@
+
+.aboutContainer{
+    position: relative;
+    background: transparent;
+}
+.Rich{
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffffff;
+
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+.fullLine{
+
+    height: 1px;
+    background-color: #fff;
+}
+
+
+@media  (min-width: 360px) {
+    .Rich{
+        font-size: 45px;
+    }
+    .fullLine{
+          position: relative;
+          width: 120%;
+          right: 38px;
+    }
+    .aboutContainer{
+    top: 3rem;
+    }
+
+}
+@media  (min-width: 480px) {
+    .fullLine{
+          position: relative;
+          width: 120%;
+          right: 38px;
+    }
+    .aboutContainer{
+    top: 33rem;
+    }
+
+}
+
+@media  (min-width: 768px) {
+    .fullLine{
+          position: relative;
+          width: 128%;
+          right: 100px;
+    }
+    .aboutContainer{
+    top: 6rem;
+    }
+    .text{
+    font-size: 20px;
+}
+
+}
+
+@media (min-width: 1024px){
+    .fullLine{
+        position: relative;
+        width: 120%; 
+        right: 30px;
+    }
+    .aboutContainer{
+    top: 5rem;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .fullLine {
+        position: relative;
+        width: 116%;
+
+        right: 90px;
+    }
+    .aboutContainer{
+    top: 6rem;
+    }
+}

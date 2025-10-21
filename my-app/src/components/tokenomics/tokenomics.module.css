@@ -1,0 +1,117 @@
+.tokenContainer{
+    position: relative;
+    background: transparent;
+}
+
+.bigText{
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-align: center;
+}
+.fullLine{
+
+    height: 1px;
+    background-color: #fff;
+}
+.col{
+    margin-bottom: 0;
+}
+
+.glass{ 
+
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 24px;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    font-weight: medium;
+}
+
+@media (min-width: 360px){
+    .gridBox{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .tokenContainer{
+        top: 6rem
+    }
+    .fullLine{
+        position: relative;
+        width: 144%;
+        right: 68px;
+    }
+}
+
+@media (min-width: 480px){
+    .gridBox{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .fullLine{
+          position: relative;
+          width: 146%;
+          right: 74px;
+    }
+}
+
+@media (min-width: 768px){
+    .fullLine{
+          position: relative;
+          width: 157%;
+          right: 140px;
+    }
+    
+    .gridBox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    }
+    .tokenContainer{
+        top: 10rem
+    }
+}
+
+@media (min-width: 1024px){
+    .gridBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    }
+    .tokenContainer{
+        top: 10rem
+    }
+}
+
+@media (min-width: 1280px){
+    .gridBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    }
+    .tokenContainer{
+        top: 10rem
+    }
+    .fullLine {
+        position: relative;
+        width: 176%;
+
+        right: 418px;
+
+    }
+}

@@ -1,0 +1,84 @@
+.heroContainer{
+    background: transparent;
+}
+.heroImage{
+    display: flex;
+    justify-content: center;
+}
+.heroImage img{
+    margin-bottom: 0;;
+}
+
+.heroText{
+    font-size: 100px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.Rich{
+
+    border-radius: 50px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /*box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);*/
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.get{
+    font-size: 24px;
+    font-weight: bold;
+}
+.heroPitch{
+    font-size: 35px;
+    font-weight: medium;
+    text-align: center;
+}
+
+.img{
+    position: relative;
+    top: 25px;
+
+}
+
+@media (min-width: 360px){
+    .heroContainer{
+        margin-top: 10rem;
+    }
+    
+    .heroPitch{
+        font-size: 25px;
+    }
+}
+@media (min-width: 480px){
+    .heroContainer{
+        margin-top: 54rem;
+    }
+    .heroPitch{
+        font-size: 25px;
+    }
+}
+@media (min-width: 768px){
+    .heroContainer{
+        margin-top: 10rem;
+    }
+    .heroPitch{
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 1280px){
+    .heroContainer{
+        margin-top: 10rem;
+}
+}

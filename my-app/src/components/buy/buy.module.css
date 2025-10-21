@@ -1,0 +1,132 @@
+.buyContainer{
+    position: relative;
+    background: transparent;
+
+}
+.bigText{
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-align: center;
+}
+.fullLine{
+
+    height: 1px;
+    background-color: #fff;
+}
+
+.colBox{
+    display: flex;
+    flex-direction: column; 
+
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 24px;
+}
+@media (min-width: 360px){
+    .fullLine{
+          position: relative;
+          width: 135%;
+          right: 58px;
+    }
+    .buyContainer{
+        top: 3rem
+    }
+    .rowBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+   }
+   .colBox{
+    font-size: 20px;
+    width: 300px;
+    padding: 18px;
+    margin-top: 30px;
+   }
+    .bigText{
+        font-size: 45px;
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 480px){
+    .fullLine{
+          position: relative;
+          width: 120%;
+          right: 38px;
+    }
+}
+
+@media (min-width: 768px){
+    .fullLine{
+          position: relative;
+          width: 176%;
+          right: 183px;
+    }
+    .buyContainer{
+        top: 8rem
+    }
+    .colBox{
+
+    font-size: 20px;
+    width: 450px;
+    padding: 18px;
+    margin-top: 30px;
+    }
+}
+@media (min-width: 1024px){
+    .fullLine{
+          position: relative;
+          width: 120%;
+          right: 100px;
+    }
+    .buyContainer{
+        top: 6rem
+    }
+    .fullLine {
+        position: relative;
+        width: 260%;
+        right: 300px;
+    }
+    .rowBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+   }
+
+}
+
+@media (min-width: 1280px){
+    .fullLine {
+        position: relative;
+        width: 138%;
+
+        right: 183px;
+    }
+    .buyContainer{
+        top: 10rem
+    }
+    .rowBox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+   }
+
+    .colBox{
+
+        width: 600px;
+        padding: 20px;
+        margin-top: 30px;
+    }
+}
