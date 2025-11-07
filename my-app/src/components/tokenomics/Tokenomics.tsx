@@ -33,7 +33,7 @@ const Tokenomics = () => {
         <motion.div
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 6 }}
+        transition={{ duration: 1 }}
         viewport={{ once: true }}
         >
         <section className= {styles.tokenContainer} id="tokenomics">
